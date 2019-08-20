@@ -1,7 +1,8 @@
 #!/bin/bash
 
-# set path to wpcli ***check PHP version*** #
-wp='opt/alt/php72/usr/bin /home3/thedomian/wp-cli.phar'
+#Set alais of path to WP-CLI 
+shopt -s expand_aliases
+alias wp="/opt/alt/php72/usr/bin/php /home3/thedomain/wp-cli.phar"
 
 # update all plugins #
 wp plugin update --all
