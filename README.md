@@ -10,4 +10,5 @@ set .bashrc
 
 set path with wp-cli.yml
 
-Setting up cron
+
+Setting up cron in cpanel
