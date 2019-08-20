@@ -2,7 +2,7 @@
 
 #Set alais of path to WP-CLI 
 shopt -s expand_aliases
-alias wp="/opt/alt/php72/usr/bin/php /home3/thedomain/wp-cli.phar"
+alias wp="/opt/alt/php72/usr/bin/php /home3/current-cp-user/wp-cli.phar"
 
 # update all plugins #
 wp plugin update --all
