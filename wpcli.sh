@@ -1,7 +1,7 @@
 #!/bin/bash
 
 # set path to wpcli ***check PHP version*** #
-wp="/usr/bin/php-5.6-cli ./wp-cli.phar"
+wp='opt/alt/php72/usr/bin /home3/thedomian/wp-cli.phar'
 
 # update all plugins #
 wp plugin update --all
