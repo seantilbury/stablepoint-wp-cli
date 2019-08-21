@@ -4,11 +4,13 @@ SSH in
 
 Steps
 
-Download phar
+# Download phar
 
-set .bashrc
+# set .bashrc
 
-set path with wp-cli.yml
+# set path with wp-cli.yml
+ 
 
-
-Setting up cron in cpanel
+# Setting up cron in cpanel
+runs shell script and pipes output to logfile
+bash /home3/bruceatfieldco/wpcli.sh >> /home3/bruceatfieldco/wp-cli.log 2>&1
