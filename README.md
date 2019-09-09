@@ -6,6 +6,11 @@ Steps
 
 # Download phar
 
+2. Run the following command:
+```
+curl -O https://raw.githubusercontent.com/wp-cli/builds/gh-pages/phar/wp-cli.phar  
+```
+
 # set .bashrc
 
 # set path with wp-cli.yml
